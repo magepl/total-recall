@@ -2,6 +2,20 @@
   box-sizing: border-box;
 }
 
+/* colour Palette
+#D9DBF1 - Lavender
+#f4ac45 - orange
+#04724d - green 
+#118ab2 - blue 
+#bb4430 - golden orange
+*/
+
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  background-color: #118ab2;
+  color: #f4ac45;
+}
+
 .sign-in-modal,
 .sign-up-modal {
   display: none;
@@ -15,6 +29,6 @@
   width: 350px;
   border-radius: 5px;
   box-shadow: 0px 0px 6px 2px #666;
-  background-color: #212529;
+  background-color: #f4ac45;
   color: whitesmoke;
 }
