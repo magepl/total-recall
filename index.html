@@ -12,23 +12,74 @@
         <div>
             <p>Total Recall</p>
             <ul>
-                <li><a href=""></a>Log In</li>
-                <li><a href=""></a>Start Learning</li>
+                <li><a href="" id="log-in-btn">Log In</a></li>
+                <li><a href=""id='sign-up-btn'>Start Learning</a></li>
                 <!-- if logged in -->
-                <li><a href=""></a>My Account</li>
+                <li><a href="">My Account</a></li>
                 
             </ul>
         </div>
+
+        <div class="sign-in-modal" id="sign-in-modal">
+            <form action="">
+                <label for="">Your Email</label>
+                <input type="email"
+                name="email"
+                placeholder="Email Address"
+                aria-label="email address"
+                required>
+                <label for="">Password</label>
+                <input type="password"
+                name="password"
+                placeholder="*********"
+                aria-label="password" required>
+                
+                <div class="sign-in-modal-btns" id="sign-in-modal-btns">
+                    <button class="sign-in-modal-btn" id="sign-in-modal-btn"
+                    type="button">Sign In</button>
+                    <button class="cancel-sign-in-modal-btn"
+                    id="cancel-sign-in-modal-btn" type="button">Cancel</button>
+                </div>
+            </form>
+        </div>
+        <div class="sign-up-modal" id="sign-up-modal">
+            <form action="submit">
+                <label for="">Your Name</label>
+                <input type="name"
+                name="name"
+                placeholder="Your Name"
+                aria-label="your name"
+                required>
+                <label for="">Your Email</label>
+                <input type="email"
+                name="email"
+                placeholder="Your Email"
+                aria-label="your email"
+                required>
+                <label for="">Password</label>
+                <input type="password"
+                name="password"
+                placeholder="*********"
+                aria-label="password" required>
+                <div class="sign-up-modal-btns" id="sign-up-modal-btns">
+                    <button class="sign-up-modal-btn" id="sign-up-modal-btn"
+                    type="button">Start Learning</button>
+                    <button class="cancel-sign-up-modal-btn"
+                    id="cancel-sign-up-modal-btn" type="button">Cancel</button>
+                </div>
+            </form>
+        </div>
     </header>
     <main>
-        <section>
+        <section class="hero">
+
             <h1>Total Recall</h1>
-            <h2>The most effective way to leadrn and retain new information</h2>
+            <h2>The most effective way to learn and retain new information</h2>
+            <article>
+                <!-- how it works -->
+
+            </article>
         </section>
-        <section>
-      <!-- how it works -->
-      
-      </section>
       <section>
         <h3>Subjects</h3>
         <ul>
@@ -55,7 +106,6 @@
             <li>Unlimited Subjects</li>
         </ul>
       </article>
-      
       </section>
     </main>
     <footer>
